@@ -5,8 +5,8 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/CoolTaher/Fylo-Data-Bar.git)
+- Live Site URL: [web page](https://cooltaher.github.io/Fylo-Data-Bar/)
 
 ## My process
 
@@ -22,8 +22,8 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Fylo data bar](https://cooltaher.github.io/Fylo-Data-Bar/)
+- Frontend Mentor - [@CoolTaher](https://www.frontendmentor.io/profile/CoolTaher)
 
 
 
