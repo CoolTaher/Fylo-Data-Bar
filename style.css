@@ -1,0 +1,110 @@
+body{
+    background: hsl(229, 57%, 11%)
+    url('bg-desktop.png') no-repeat fixed center;
+    background-position: 0rem 17.5rem;
+}
+.container{
+    font-family: 'Raleway', sans-serif;
+    /* border: 2px solid white; */
+    color: white;
+    margin-top: 10rem;
+    height: 15rem;
+}
+#fylo{
+    font-family: 'Raleway', sans-serif;
+    background: hsl(228, 56%, 26%);
+    border: transparent;
+    height: 10rem;
+    border-radius: 0px 75px 0px 0px;
+    
+    margin: 3rem;
+}
+#icons{
+    display: flex;
+    margin-left: 2rem;  
+    margin-top: 2rem;
+    align-items: flex-start;  
+    column-gap: 0.5rem; 
+     
+    
+     
+}
+#progbar{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5rem;
+    height: 8rem;
+    border: transparent;
+    border-radius: 8px;
+    background:hsl(228, 56%, 26%);
+    /* margin-top: 2rem; */
+}
+.progress{
+    -webkit-appearance: none;
+    justify-content: flex-start;
+    background: hsl(229, 57%, 11%);
+    border-radius: 6px;
+    height: 0.7rem;
+}
+#rangebar{
+    -webkit-appearance: none;
+    background: linear-gradient(hsl(6, 100%, 80%) , hsl(335, 100%, 65%)); 
+    width: 80%;
+     height: 0.7rem;
+
+}
+#data{
+    padding-top :0.3em ;
+    width: 10rem;
+    height: 4rem;
+    background: white;
+    color: black;
+    margin: -70px 0px 0px 0px;
+    float: right;
+    font-weight: bolder;
+    border-radius: 10px 10px 0px 10px;
+    font-size: 2rem;
+}
+#datarange{
+    margin-top: 5px;
+    font-size: 0.8rem;
+
+}
+#data:after{
+    content: "";
+    position: absolute;
+    border-top-left-radius: 10px;
+
+}
+h5{
+    font-size: 13px;
+    font-weight: lighter;
+}
+@media only screen and (max-width: 600px){
+    body{
+        background:hsl(229, 57%, 11%)
+        url('/bg-mobile.png') no-repeat fixed center ;
+        background-position: 0rem;
+    }
+    #fylo{
+        
+        width: 18rem;
+        height: 11rem;
+        margin-top: -4rem ;
+    }
+    #progbar{
+        width: 18rem;
+        height: 9rem;
+        margin: -32px 0px 0px 45px;
+    }
+    #data{
+        width: 9rem;
+        height: 4rem;
+        margin: 85px 54px 0px -198px;
+        align-items: center;
+        border-radius: 8px;
+    }
+    h5{
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
